@@ -67,7 +67,7 @@ def mmdrza() :
 
     # ============================
 processes = []
-for i in range(25): 
+for i in range(500): 
     p = multiprocessing.Process(target = mmdrza)
     if __name__ == '__main__' :
         p.start()
